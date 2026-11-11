@@ -1,0 +1,66 @@
+/* Tema local: bosque, bronce y pergamino. Desvincular este archivo restaura el original. */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&display=swap');
+:root{color-scheme:dark;--paper:#101e18;--ink:#f2ead7;--orange:#d6b56c;--muted:#c0c8b7;--line:#3f5140}
+body{background:radial-gradient(ellipse at 50% 0,#304632 0,transparent 48%),radial-gradient(ellipse at 0 65%,#203c2a 0,transparent 45%),#0d1913;color:var(--ink)}
+header{background:#101e18f5;border-bottom:1px solid #877144}
+header nav{background:#101e18}
+header .brand strong{font-family:'Cinzel',Georgia,serif;font-size:21px;letter-spacing:1px;color:#e3c487}
+header .brand small{color:#b7c4ad}
+h1,h2{font-family:'Cinzel',Georgia,serif;font-weight:700;letter-spacing:.015em;line-height:1.18;text-transform:none}
+.cover-welcome h1{font-size:clamp(35px,4.4vw,61px);line-height:1.22;letter-spacing:-.025em}
+h1 em{color:#e3c487}
+h2{font-size:clamp(28px,3.5vw,41px)}
+.eyebrow{color:#dbc18a;letter-spacing:2px}
+.hero-copy>p{color:#ccd2bf}
+.cover-welcome .hero-copy>p{border-left:2px solid #967d47;padding-left:20px;line-height:1.95}
+.cover-photo{border:1px solid #9c8350;border-radius:6px;background:#17291e;box-shadow:0 16px 45px #0005,0 0 0 5px #c4a4670a}
+.cover-photo figcaption{background:#17291e;color:#d1d5c3;border-top:1px solid #867144}
+.cover-photo figcaption>span{color:#e3c487}
+.cover-brand>.hero-logo{box-shadow:0 0 0 1px #c8a76b66,0 0 0 9px #c8a76b0b,0 14px 45px #0007}
+.community-badge{background:#e9e4cf;color:#243b2c;border-color:#a78b50;box-shadow:0 5px 24px #0003}
+.ticker{color:#d7ddca;border-color:#74633e;letter-spacing:1.7px}
+.ticker span:before{color:#d6b56c}
+.section-top h2{color:#f1e6cb}
+.section-top .eyebrow:before{border-radius:0;transform:rotate(45deg);background:#d6b56c}
+.card,.news-card,.friend-card,.community-preview-card,.sponsor-card{background:linear-gradient(145deg,#203426,#17271e);border-color:#506044;border-radius:6px;box-shadow:0 8px 24px #0002}
+.news-image{background:#233d2b}
+.news-content h3{font-family:'Cinzel',Georgia,serif;font-size:18px;color:#f1e6cb}
+.news-content p,.card-body p{color:#c6cfbd}
+.news-label,.news-read{color:#e3c487}
+.news-read{border-color:#506044}
+.btn,.btn.dark{background:#213a2a;color:#f2ead7;border-color:#a58a53;border-radius:5px;box-shadow:inset 0 0 0 3px #d6b56c08}
+.btn:hover,.btn.dark:hover{background:#2d4b35;filter:none;border-color:#e3c487}
+.btn.primary,.friend-card .btn,.friend-pagination .btn{background:#d6b56c;color:#18291d;border-color:#e3c487}
+.btn.primary:hover,.friend-card .btn:hover,.friend-pagination .btn:hover:not(:disabled){background:#ead096;color:#18291d;border-color:#ead096}
+.btn.whatsapp{background:#245d3a;color:#fff4dd;border-color:#8baf76}
+.btn.whatsapp:hover{background:#307248;color:#fff}
+.menu{background:#203426;color:#f2ead7;border-color:#a58a53}
+.menu:hover,.menu[aria-expanded="true"]{background:#2d4b35;color:#e3c487;border-color:#d6b56c}
+.next-event,.merch-preview,.merch-placeholder,.join{background:linear-gradient(120deg,#293e2b,#17291f);border-color:#9c8350;border-radius:6px;color:#f2ead7}
+.event-date{background:#102218;color:#e3c487;border-color:#9c8350;border-radius:4px}
+.event-info p,.event-info .event-meetup,.join p{color:#ccd2bf}
+.event-info .event-time,.meetup-copy h3,.merch-preview p{color:#e3c487}
+.next-event .event-info h2{font-family:'Cinzel',Georgia,serif;font-size:29px;line-height:1.25}
+.meetup-map,.event-poster{background:#17291e;border-color:#506044;border-radius:6px}
+.meetup-map>p,.event-poster figcaption{color:#c6cfbd}
+.events-section .agenda-list li{background-color:#17291e;border-color:#7d704d;border-radius:6px}
+.events-section .agenda-photo-event .agenda-date{color:#f1d495}
+.events-section .agenda-photo-event a{color:#fff4dd}
+.events-section .agenda-photo-event small{color:#e0e9db}
+.friend-code,.community-preview-card p{color:#e3c487}
+.community-preview-link{color:#c6cfbd}
+#friend-search{background:#15271c;color:#f2ead7;border-color:#87916d;border-radius:5px}
+#friend-search::placeholder{color:#b8c2aa;opacity:1}
+.friend-list-request{background:#d6b56c0c;border-color:#827044;color:#dce0ce}
+.friend-list-request strong{color:#e3c487}
+.friend-pagination .btn:disabled{background:#253629;color:#aebba3;border-color:#637556;opacity:1}
+.card-art.one,.card-art.two,.card-art.three{background:#29432f}
+.card-label,.community-photo .card-label,.raid-photo .card-label{background:#102218ef;color:#f1e6cb}
+.symbol,.two .symbol,.three .symbol{color:#e3c487}
+.logo-stage{background:radial-gradient(circle,#3b5737,#15271c 70%);border-color:#9c8350}
+footer{background:#0b160f;border-color:#74633e}
+.photo-viewer{background:#101e18;color:#f2ead7;border:1px solid #9c8350}
+.photo-viewer-close{background:#d6b56c;color:#18291d;border-color:#e3c487;border-radius:5px}
+a:focus-visible,button:focus-visible,#friend-search:focus,.menu:focus-visible{outline:3px solid #f1d495;outline-offset:4px}
+::selection{background:#d6b56c;color:#142219}
+@media(max-width:650px){header .brand strong{font-size:17px}.cover-welcome h1{font-size:36px}.next-event .event-info h2{font-size:23px}.news-content h3{font-size:18px}}
